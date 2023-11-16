@@ -1,0 +1,663 @@
+2023-11-12 11:34:29.409 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 11:34:29.682 -06:00 [DBG] Hosting starting
+2023-11-12 11:34:30.049 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 68DD1E22834647AC0D2A925FDBE1E0E628A1BE4C)
+2023-11-12 11:34:30.189 -06:00 [INF] Now listening on: https://localhost:7169
+2023-11-12 11:34:30.190 -06:00 [INF] Now listening on: http://localhost:5169
+2023-11-12 11:34:30.192 -06:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 11:34:30.195 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 11:34:30.196 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 11:34:30.198 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 11:34:30.200 -06:00 [INF] Hosting environment: Development
+2023-11-12 11:34:30.202 -06:00 [INF] Content root path: C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\
+2023-11-12 11:34:30.205 -06:00 [DBG] Hosting started
+2023-11-12 11:53:26.973 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 11:53:27.173 -06:00 [DBG] Hosting starting
+2023-11-12 11:53:27.458 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 68DD1E22834647AC0D2A925FDBE1E0E628A1BE4C)
+2023-11-12 11:53:27.558 -06:00 [INF] Now listening on: https://localhost:7169
+2023-11-12 11:53:27.560 -06:00 [INF] Now listening on: http://localhost:5169
+2023-11-12 11:53:27.561 -06:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 11:53:27.562 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 11:53:27.564 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 11:53:27.565 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 11:53:27.568 -06:00 [INF] Hosting environment: Development
+2023-11-12 11:53:27.570 -06:00 [INF] Content root path: C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\
+2023-11-12 11:53:27.571 -06:00 [DBG] Hosting started
+2023-11-12 11:53:32.223 -06:00 [DBG] Connection id "0HMV3L14GD2UM" received FIN.
+2023-11-12 11:53:32.238 -06:00 [DBG] Connection id "0HMV3L14GD2UM" accepted.
+2023-11-12 11:53:32.244 -06:00 [DBG] Connection id "0HMV3L14GD2UM" started.
+2023-11-12 11:53:32.248 -06:00 [DBG] Connection id "0HMV3L14GD2UN" accepted.
+2023-11-12 11:53:32.251 -06:00 [DBG] Connection id "0HMV3L14GD2UN" started.
+2023-11-12 11:53:32.276 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-12 11:53:32.398 -06:00 [DBG] Connection id "0HMV3L14GD2UM" stopped.
+2023-11-12 11:53:32.404 -06:00 [DBG] Connection id "0HMV3L14GD2UM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 11:53:32.415 -06:00 [DBG] Connection 0HMV3L14GD2UN established using the following protocol: "Tls13"
+2023-11-12 11:53:32.518 -06:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - -
+2023-11-12 11:53:32.545 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-12 11:53:32.591 -06:00 [DBG] DELETE requests are not supported
+2023-11-12 11:53:32.655 -06:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 11:53:32.666 -06:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 11:53:32.670 -06:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 11:53:32.680 -06:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 11:53:32.730 -06:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2023-11-12 11:53:32.736 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-12 11:53:32.739 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-12 11:53:32.742 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-12 11:53:32.747 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-12 11:53:32.750 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-12 11:53:32.755 -06:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 11:53:32.759 -06:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 11:53:32.800 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 11:53:32.811 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2023-11-12 11:53:32.814 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 11:53:32.817 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 11:53:32.819 -06:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 11:53:32.825 -06:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2023-11-12 11:53:32.841 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 11:53:32.845 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2023-11-12 11:53:32.848 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 11:53:32.852 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 11:53:32.856 -06:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 11:53:32.860 -06:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 11:53:32.880 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-11-12 11:53:32.896 -06:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 131.261ms
+2023-11-12 11:53:32.902 -06:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 11:53:32.908 -06:00 [DBG] Connection id "0HMV3L14GD2UN" completed keep alive response.
+2023-11-12 11:53:32.920 -06:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - - - 204 - - 405.4997ms
+2023-11-12 12:01:26.884 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 12:01:27.115 -06:00 [DBG] Hosting starting
+2023-11-12 12:01:27.322 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 68DD1E22834647AC0D2A925FDBE1E0E628A1BE4C)
+2023-11-12 12:01:27.402 -06:00 [INF] Now listening on: https://localhost:7169
+2023-11-12 12:01:27.407 -06:00 [INF] Now listening on: http://localhost:5169
+2023-11-12 12:01:27.408 -06:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 12:01:27.410 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 12:01:27.413 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 12:01:27.414 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 12:01:27.415 -06:00 [INF] Hosting environment: Development
+2023-11-12 12:01:27.416 -06:00 [INF] Content root path: C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\
+2023-11-12 12:01:27.418 -06:00 [DBG] Hosting started
+2023-11-12 12:18:15.042 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 12:18:15.215 -06:00 [DBG] Hosting starting
+2023-11-12 12:18:15.422 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 68DD1E22834647AC0D2A925FDBE1E0E628A1BE4C)
+2023-11-12 12:18:15.501 -06:00 [INF] Now listening on: https://localhost:7169
+2023-11-12 12:18:15.502 -06:00 [INF] Now listening on: http://localhost:5169
+2023-11-12 12:18:15.504 -06:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 12:18:15.505 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 12:18:15.507 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 12:18:15.509 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 12:18:15.511 -06:00 [INF] Hosting environment: Development
+2023-11-12 12:18:15.512 -06:00 [INF] Content root path: C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\
+2023-11-12 12:18:15.513 -06:00 [DBG] Hosting started
+2023-11-12 12:18:23.508 -06:00 [DBG] Connection id "0HMV3LF0UD2K2" received FIN.
+2023-11-12 12:18:23.522 -06:00 [DBG] Connection id "0HMV3LF0UD2K2" accepted.
+2023-11-12 12:18:23.528 -06:00 [DBG] Connection id "0HMV3LF0UD2K2" started.
+2023-11-12 12:18:23.530 -06:00 [DBG] Connection id "0HMV3LF0UD2K3" accepted.
+2023-11-12 12:18:23.532 -06:00 [DBG] Connection id "0HMV3LF0UD2K3" started.
+2023-11-12 12:18:23.555 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-12 12:18:23.635 -06:00 [DBG] Connection id "0HMV3LF0UD2K2" stopped.
+2023-11-12 12:18:23.638 -06:00 [DBG] Connection id "0HMV3LF0UD2K2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 12:18:23.651 -06:00 [DBG] Connection 0HMV3LF0UD2K3 established using the following protocol: "Tls13"
+2023-11-12 12:18:23.736 -06:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - -
+2023-11-12 12:18:23.763 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-12 12:18:23.812 -06:00 [DBG] DELETE requests are not supported
+2023-11-12 12:18:23.868 -06:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:18:23.881 -06:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:18:23.886 -06:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:18:23.897 -06:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:18:23.932 -06:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2023-11-12 12:18:23.937 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-12 12:18:23.939 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-12 12:18:23.941 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-12 12:18:23.944 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-12 12:18:23.945 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-12 12:18:23.948 -06:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:18:23.953 -06:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:18:23.969 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 12:18:23.973 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2023-11-12 12:18:23.976 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:18:23.977 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:18:23.979 -06:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 12:18:23.983 -06:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:18:23.988 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 12:18:23.989 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2023-11-12 12:18:23.991 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:18:23.993 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:18:23.994 -06:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 12:18:23.996 -06:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:18:24.010 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-11-12 12:18:24.024 -06:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 65.0252ms
+2023-11-12 12:18:24.028 -06:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:18:24.037 -06:00 [DBG] Connection id "0HMV3LF0UD2K3" completed keep alive response.
+2023-11-12 12:18:24.042 -06:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - - - 204 - - 312.2779ms
+2023-11-12 12:24:16.361 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 12:24:16.591 -06:00 [DBG] Hosting starting
+2023-11-12 12:24:16.819 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 68DD1E22834647AC0D2A925FDBE1E0E628A1BE4C)
+2023-11-12 12:24:16.887 -06:00 [INF] Now listening on: https://localhost:7169
+2023-11-12 12:24:16.889 -06:00 [INF] Now listening on: http://localhost:5169
+2023-11-12 12:24:16.891 -06:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 12:24:16.893 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 12:24:16.895 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 12:24:16.896 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 12:24:16.897 -06:00 [INF] Hosting environment: Development
+2023-11-12 12:24:16.898 -06:00 [INF] Content root path: C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\
+2023-11-12 12:24:16.899 -06:00 [DBG] Hosting started
+2023-11-12 12:24:27.671 -06:00 [DBG] Connection id "0HMV3LIDFASJD" received FIN.
+2023-11-12 12:24:27.686 -06:00 [DBG] Connection id "0HMV3LIDFASJD" accepted.
+2023-11-12 12:24:27.690 -06:00 [DBG] Connection id "0HMV3LIDFASJD" started.
+2023-11-12 12:24:27.691 -06:00 [DBG] Connection id "0HMV3LIDFASJE" accepted.
+2023-11-12 12:24:27.693 -06:00 [DBG] Connection id "0HMV3LIDFASJE" started.
+2023-11-12 12:24:27.717 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-12 12:24:27.785 -06:00 [DBG] Connection id "0HMV3LIDFASJD" stopped.
+2023-11-12 12:24:27.788 -06:00 [DBG] Connection id "0HMV3LIDFASJD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 12:24:27.799 -06:00 [DBG] Connection 0HMV3LIDFASJE established using the following protocol: "Tls13"
+2023-11-12 12:24:27.861 -06:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - -
+2023-11-12 12:24:27.883 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-12 12:24:27.906 -06:00 [DBG] DELETE requests are not supported
+2023-11-12 12:24:27.943 -06:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:24:27.950 -06:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:24:27.953 -06:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:24:27.957 -06:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:24:27.985 -06:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2023-11-12 12:24:27.989 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-12 12:24:27.991 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-12 12:24:27.994 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-12 12:24:27.999 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-12 12:24:28.001 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-12 12:24:28.003 -06:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:24:28.006 -06:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:24:28.032 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 12:24:28.037 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2023-11-12 12:24:28.042 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:24:28.047 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:24:28.050 -06:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 12:24:28.056 -06:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:24:28.064 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 12:24:28.068 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2023-11-12 12:24:28.071 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:24:28.073 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:24:28.075 -06:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 12:24:28.079 -06:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:24:28.090 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-11-12 12:24:28.101 -06:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 89.3501ms
+2023-11-12 12:24:28.105 -06:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:24:28.110 -06:00 [DBG] Connection id "0HMV3LIDFASJE" completed keep alive response.
+2023-11-12 12:24:28.116 -06:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - - - 204 - - 259.0060ms
+2023-11-12 12:25:33.879 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 12:25:34.091 -06:00 [DBG] Hosting starting
+2023-11-12 12:25:34.305 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 68DD1E22834647AC0D2A925FDBE1E0E628A1BE4C)
+2023-11-12 12:25:34.384 -06:00 [INF] Now listening on: https://localhost:7169
+2023-11-12 12:25:34.385 -06:00 [INF] Now listening on: http://localhost:5169
+2023-11-12 12:25:34.387 -06:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 12:25:34.388 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 12:25:34.389 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 12:25:34.391 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 12:25:34.393 -06:00 [INF] Hosting environment: Development
+2023-11-12 12:25:34.394 -06:00 [INF] Content root path: C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\
+2023-11-12 12:25:34.395 -06:00 [DBG] Hosting started
+2023-11-12 12:25:44.600 -06:00 [DBG] Connection id "0HMV3LJ4CVP0V" received FIN.
+2023-11-12 12:25:44.615 -06:00 [DBG] Connection id "0HMV3LJ4CVP0V" accepted.
+2023-11-12 12:25:44.619 -06:00 [DBG] Connection id "0HMV3LJ4CVP0V" started.
+2023-11-12 12:25:44.621 -06:00 [DBG] Connection id "0HMV3LJ4CVP10" accepted.
+2023-11-12 12:25:44.624 -06:00 [DBG] Connection id "0HMV3LJ4CVP10" started.
+2023-11-12 12:25:44.643 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-12 12:25:44.699 -06:00 [DBG] Connection id "0HMV3LJ4CVP0V" stopped.
+2023-11-12 12:25:44.703 -06:00 [DBG] Connection id "0HMV3LJ4CVP0V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 12:25:44.714 -06:00 [DBG] Connection 0HMV3LJ4CVP10 established using the following protocol: "Tls13"
+2023-11-12 12:25:44.773 -06:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - -
+2023-11-12 12:25:44.796 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-12 12:25:44.821 -06:00 [DBG] DELETE requests are not supported
+2023-11-12 12:25:44.857 -06:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:25:44.864 -06:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:25:44.867 -06:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:25:44.872 -06:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:25:44.901 -06:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2023-11-12 12:25:44.905 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-12 12:25:44.908 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-12 12:25:44.910 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-12 12:25:44.913 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-12 12:25:44.915 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-12 12:25:44.918 -06:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:26:17.062 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 12:26:17.337 -06:00 [DBG] Hosting starting
+2023-11-12 12:26:17.733 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 68DD1E22834647AC0D2A925FDBE1E0E628A1BE4C)
+2023-11-12 12:26:17.830 -06:00 [INF] Now listening on: https://localhost:7169
+2023-11-12 12:26:17.832 -06:00 [INF] Now listening on: http://localhost:5169
+2023-11-12 12:26:17.834 -06:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 12:26:17.835 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 12:26:17.837 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 12:26:17.838 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 12:26:17.841 -06:00 [INF] Hosting environment: Development
+2023-11-12 12:26:17.843 -06:00 [INF] Content root path: C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\
+2023-11-12 12:26:17.844 -06:00 [DBG] Hosting started
+2023-11-12 12:26:22.650 -06:00 [DBG] Connection id "0HMV3LJFNRLE4" received FIN.
+2023-11-12 12:26:22.662 -06:00 [DBG] Connection id "0HMV3LJFNRLE4" accepted.
+2023-11-12 12:26:22.665 -06:00 [DBG] Connection id "0HMV3LJFNRLE4" started.
+2023-11-12 12:26:22.667 -06:00 [DBG] Connection id "0HMV3LJFNRLE5" accepted.
+2023-11-12 12:26:22.669 -06:00 [DBG] Connection id "0HMV3LJFNRLE5" started.
+2023-11-12 12:26:22.688 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-12 12:26:22.745 -06:00 [DBG] Connection id "0HMV3LJFNRLE4" stopped.
+2023-11-12 12:26:22.749 -06:00 [DBG] Connection id "0HMV3LJFNRLE4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 12:26:22.757 -06:00 [DBG] Connection 0HMV3LJFNRLE5 established using the following protocol: "Tls13"
+2023-11-12 12:26:22.823 -06:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - -
+2023-11-12 12:26:22.846 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-12 12:26:22.870 -06:00 [DBG] DELETE requests are not supported
+2023-11-12 12:26:22.911 -06:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:26:22.919 -06:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:26:22.925 -06:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:26:22.929 -06:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:26:22.964 -06:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2023-11-12 12:26:22.970 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-12 12:26:22.972 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-12 12:26:22.975 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-12 12:26:22.978 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-12 12:26:22.979 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-12 12:26:22.982 -06:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:26:22.990 -06:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:26:23.009 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 12:26:23.014 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2023-11-12 12:26:23.018 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:26:23.023 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:26:23.026 -06:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 12:26:23.030 -06:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:26:23.039 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 12:26:23.042 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2023-11-12 12:26:23.045 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:26:23.046 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:26:23.048 -06:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 12:26:23.050 -06:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:26:23.062 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-11-12 12:26:23.072 -06:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 83.7038ms
+2023-11-12 12:26:23.077 -06:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:26:23.081 -06:00 [DBG] Connection id "0HMV3LJFNRLE5" completed keep alive response.
+2023-11-12 12:26:23.085 -06:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - - - 204 - - 267.7076ms
+2023-11-12 12:27:14.189 -06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-12 12:27:14.346 -06:00 [DBG] Hosting starting
+2023-11-12 12:27:14.557 -06:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 68DD1E22834647AC0D2A925FDBE1E0E628A1BE4C)
+2023-11-12 12:27:14.691 -06:00 [INF] Now listening on: https://localhost:7169
+2023-11-12 12:27:14.700 -06:00 [INF] Now listening on: http://localhost:5169
+2023-11-12 12:27:14.706 -06:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-11-12 12:27:14.708 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-12 12:27:14.710 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-12 12:27:14.714 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-12 12:27:14.717 -06:00 [INF] Hosting environment: Production
+2023-11-12 12:27:14.720 -06:00 [INF] Content root path: C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\
+2023-11-12 12:27:14.724 -06:00 [DBG] Hosting started
+2023-11-12 12:27:18.840 -06:00 [DBG] Connection id "0HMV3LK0FNDV3" received FIN.
+2023-11-12 12:27:18.857 -06:00 [DBG] Connection id "0HMV3LK0FNDV3" accepted.
+2023-11-12 12:27:18.863 -06:00 [DBG] Connection id "0HMV3LK0FNDV3" started.
+2023-11-12 12:27:18.865 -06:00 [DBG] Connection id "0HMV3LK0FNDV4" accepted.
+2023-11-12 12:27:18.867 -06:00 [DBG] Connection id "0HMV3LK0FNDV4" started.
+2023-11-12 12:27:18.887 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-12 12:27:18.945 -06:00 [DBG] Connection id "0HMV3LK0FNDV3" stopped.
+2023-11-12 12:27:18.948 -06:00 [DBG] Connection id "0HMV3LK0FNDV3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-12 12:27:18.959 -06:00 [DBG] Connection 0HMV3LK0FNDV4 established using the following protocol: "Tls13"
+2023-11-12 12:27:19.018 -06:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - -
+2023-11-12 12:27:19.050 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-12 12:27:19.097 -06:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:27:19.105 -06:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest/{pointOfInterestId}' is valid for the request path '/api/cities/1/pointsofinterest/1'
+2023-11-12 12:27:19.109 -06:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:27:19.113 -06:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:27:19.161 -06:00 [INF] Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2023-11-12 12:27:19.165 -06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-11-12 12:27:19.167 -06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-11-12 12:27:19.169 -06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-11-12 12:27:19.172 -06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-11-12 12:27:19.174 -06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-11-12 12:27:19.176 -06:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:27:19.179 -06:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API)
+2023-11-12 12:27:19.195 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 12:27:19.200 -06:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2023-11-12 12:27:19.204 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:27:19.207 -06:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:27:19.209 -06:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2023-11-12 12:27:19.212 -06:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2023-11-12 12:27:19.215 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 12:27:19.217 -06:00 [DBG] Attempting to bind parameter 'pointOfInterestId' of type 'System.Int32' using the name 'pointOfInterestId' in request data ...
+2023-11-12 12:27:19.221 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:27:19.223 -06:00 [DBG] Done attempting to bind parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:27:19.226 -06:00 [DBG] Attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32' ...
+2023-11-12 12:27:19.227 -06:00 [DBG] Done attempting to validate the bound parameter 'pointOfInterestId' of type 'System.Int32'.
+2023-11-12 12:27:19.237 -06:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-11-12 12:27:19.246 -06:00 [INF] Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 64.8469ms
+2023-11-12 12:27:19.250 -06:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API)'
+2023-11-12 12:27:19.255 -06:00 [DBG] Connection id "0HMV3LK0FNDV4" completed keep alive response.
+2023-11-12 12:27:19.261 -06:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7169/api/cities/1/pointsofinterest/1 - - - 204 - - 247.5747ms
+2023-11-12 13:16:46.496 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-11-12 13:16:47.260 -06:00 [INF] Entity Framework Core 6.0.24 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.24' with options: None
+2023-11-12 13:16:47.388 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:16:47.391 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:16:47.482 -06:00 [DBG] 'CityInfoContext' disposed.
+2023-11-12 13:17:44.274 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-11-12 13:17:45.005 -06:00 [INF] Entity Framework Core 6.0.24 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.24' with options: None
+2023-11-12 13:17:45.066 -06:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.073 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.084 -06:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.086 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.086 -06:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.086 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.093 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.103 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:17:45.109 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2023-11-12 13:17:45.120 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-11-12 13:17:45.148 -06:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-11-12 13:17:45.150 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.152 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.239 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:17:45.241 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:17:45.275 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:17:45.275 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:17:45.275 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.275 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.275 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-11-12 13:17:45.285 -06:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-11-12 13:17:45.285 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.285 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.287 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.288 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.294 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-12 13:17:45.294 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-11-12 13:17:45.294 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.294 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.294 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:17:45.298 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:17:45.298 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.298 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.301 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-11-12 13:17:45.301 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-11-12 13:17:45.301 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.302 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.302 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-12 13:17:45.303 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-12 13:17:45.304 -06:00 [DBG] A data reader was disposed.
+2023-11-12 13:17:45.304 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.305 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.326 -06:00 [INF] Applying migration '20231112191647_CityInfoDBInitialMigration'.
+2023-11-12 13:17:45.361 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.361 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.363 -06:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-11-12 13:17:45.370 -06:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-11-12 13:17:45.371 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:17:45.371 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:17:45.848 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NOT NULL
+);
+2023-11-12 13:17:45.849 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NOT NULL
+);
+2023-11-12 13:17:45.849 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:17:45.849 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:17:45.849 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2023-11-12 13:17:45.849 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2023-11-12 13:17:45.850 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:17:45.850 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:17:45.850 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2023-11-12 13:17:45.850 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2023-11-12 13:17:45.850 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:17:45.850 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:17:45.850 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231112191647_CityInfoDBInitialMigration', '6.0.24');
+2023-11-12 13:17:45.850 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231112191647_CityInfoDBInitialMigration', '6.0.24');
+2023-11-12 13:17:45.852 -06:00 [DBG] Committing transaction.
+2023-11-12 13:17:45.857 -06:00 [DBG] Committed transaction.
+2023-11-12 13:17:45.858 -06:00 [DBG] Disposing transaction.
+2023-11-12 13:17:45.858 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:17:45.858 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:17:45.860 -06:00 [DBG] 'CityInfoContext' disposed.
+2023-11-12 13:24:51.160 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-11-12 13:24:51.947 -06:00 [INF] Entity Framework Core 6.0.24 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.24' with options: None
+2023-11-12 13:24:52.087 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:24:52.090 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:24:52.091 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:24:52.091 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:24:52.099 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:24:52.099 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:24:52.099 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:24:52.099 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:24:52.184 -06:00 [DBG] 'CityInfoContext' disposed.
+2023-11-12 13:24:58.790 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-11-12 13:24:59.527 -06:00 [INF] Entity Framework Core 6.0.24 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.24' with options: None
+2023-11-12 13:24:59.582 -06:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.590 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.601 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.619 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-12 13:24:59.629 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (8ms).
+2023-11-12 13:24:59.631 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.634 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.645 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:24:59.677 -06:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:24:59.680 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.684 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.686 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.687 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.687 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-12 13:24:59.687 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-11-12 13:24:59.687 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.687 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.688 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:24:59.688 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:24:59.688 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.688 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.701 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-11-12 13:24:59.702 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-11-12 13:24:59.702 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.702 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.703 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-12 13:24:59.704 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-12 13:24:59.707 -06:00 [DBG] A data reader was disposed.
+2023-11-12 13:24:59.707 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.707 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.721 -06:00 [INF] Applying migration '20231112192452_addingdescription'.
+2023-11-12 13:24:59.766 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.766 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.768 -06:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-11-12 13:24:59.773 -06:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-11-12 13:24:59.774 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:24:59.774 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:24:59.775 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-11-12 13:24:59.778 -06:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-11-12 13:24:59.778 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:24:59.778 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:24:59.778 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231112192452_addingdescription', '6.0.24');
+2023-11-12 13:24:59.778 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231112192452_addingdescription', '6.0.24');
+2023-11-12 13:24:59.878 -06:00 [DBG] Committing transaction.
+2023-11-12 13:24:59.888 -06:00 [DBG] Committed transaction.
+2023-11-12 13:24:59.889 -06:00 [DBG] Disposing transaction.
+2023-11-12 13:24:59.889 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:24:59.890 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:24:59.891 -06:00 [DBG] 'CityInfoContext' disposed.
+2023-11-12 13:41:29.457 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-11-12 13:41:30.081 -06:00 [INF] Entity Framework Core 6.0.24 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.24' with options: None
+2023-11-12 13:41:30.202 -06:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.202 -06:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.222 -06:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterst' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.223 -06:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterst' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.245 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:41:30.247 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:41:30.248 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:41:30.253 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:41:30.301 -06:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.302 -06:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.302 -06:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterst' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.302 -06:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterst' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.310 -06:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.316 -06:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.316 -06:00 [DBG] An entity of type 'PointOfInterst' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.316 -06:00 [DBG] An entity of type 'PointOfInterst' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-11-12 13:41:30.316 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:41:30.316 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:41:30.323 -06:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2023-11-12 13:41:30.324 -06:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2023-11-12 13:41:30.388 -06:00 [DBG] 'CityInfoContext' disposed.
+2023-11-12 13:41:39.033 -06:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-11-12 13:41:39.648 -06:00 [INF] Entity Framework Core 6.0.24 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.24' with options: None
+2023-11-12 13:41:39.695 -06:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.700 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.711 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.725 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-12 13:41:39.731 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2023-11-12 13:41:39.733 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.736 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.743 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:41:39.761 -06:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:41:39.763 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.765 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.767 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.768 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.768 -06:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-11-12 13:41:39.768 -06:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-11-12 13:41:39.768 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.768 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.768 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:41:39.769 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-11-12 13:41:39.769 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.769 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.784 -06:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-11-12 13:41:39.784 -06:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-11-12 13:41:39.784 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.784 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.784 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-12 13:41:39.785 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-11-12 13:41:39.787 -06:00 [DBG] A data reader was disposed.
+2023-11-12 13:41:39.787 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.787 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.797 -06:00 [INF] Applying migration '20231112194130_DataSeed'.
+2023-11-12 13:41:39.838 -06:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:39.838 -06:00 [DBG] Opened connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:39.840 -06:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-11-12 13:41:39.842 -06:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-11-12 13:41:39.843 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:41:39.843 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:41:39.844 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'Managua', 'Managua');
+2023-11-12 13:41:39.845 -06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'Managua', 'Managua');
+2023-11-12 13:41:39.845 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:41:39.845 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:41:39.845 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'Tipitapa', 'Tipitapa');
+2023-11-12 13:41:39.845 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'Tipitapa', 'Tipitapa');
+2023-11-12 13:41:39.845 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:41:39.845 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:41:39.845 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'Ninguno', 'Ninguno');
+2023-11-12 13:41:39.846 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'Ninguno', 'Ninguno');
+2023-11-12 13:41:39.846 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:41:39.846 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:41:39.846 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 2, 'Ninguno2', 'Ninguno2');
+2023-11-12 13:41:39.846 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 2, 'Ninguno2', 'Ninguno2');
+2023-11-12 13:41:39.846 -06:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-11-12 13:41:39.846 -06:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-11-12 13:41:39.846 -06:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231112194130_DataSeed', '6.0.24');
+2023-11-12 13:41:39.846 -06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20231112194130_DataSeed', '6.0.24');
+2023-11-12 13:41:39.847 -06:00 [DBG] Committing transaction.
+2023-11-12 13:41:40.521 -06:00 [DBG] Committed transaction.
+2023-11-12 13:41:40.523 -06:00 [DBG] Disposing transaction.
+2023-11-12 13:41:40.523 -06:00 [DBG] Closing connection to database 'main' on server 'C:\Users\usuario\Downloads\asp-dot-net-core-6-web-api-fundamentals\02\demos\end\CityInfo.API\CityInfo.db'.
+2023-11-12 13:41:40.523 -06:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2023-11-12 13:41:40.525 -06:00 [DBG] 'CityInfoContext' disposed.
